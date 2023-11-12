@@ -18,26 +18,24 @@ h1{
 
 #main-parent{
     background-color: white;
-   /* height:300px !important; */
     width: 50%;
     margin: 0rem auto;
     box-shadow: aqua;
     box-shadow: 2px 3px;
     border-radius: 4px;
-    height:0px;
 }
 
 .myBtn{
     position: relative;
-    left: 104rem;
+    left:81rem;
+    bottom:2rem;
    
 }
 .card{
     max-height:50%  !important;
 }
 .card img{
-    /* height:350px; */
-    height:290px;
+    height:292px;
    
 }
 .plot{
