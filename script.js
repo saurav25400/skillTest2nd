@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   <p class="card-text">${movie.Year}</p>
                   <p class="card-text" style="display:none">${data2Value.Plot}</p>
                   
-                  <a href="./MovieDetails.html" target="_blank"class="btn btn-warning ms-4">Click for more Info</a>
+                  <a href="./MovieDetails.html" class="btn btn-warning ms-4">Click for more Info</a>
                   <button type="button" class="btn btn-info mt-3 favourites">Click to Add To Favourites</button>
               </div>
           `;
