@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     try {
       const response2 = await fetch(
-        `http://www.omdbapi.com/?t=${inputValue}&plot=full&apikey=b8d42e41`
+        `https://www.omdbapi.com/?t=${inputValue}&plot=full&apikey=b8d42e41`
       );
       const data2 = await response2.json();
       const response = await fetch(
-        `http://www.omdbapi.com/?s=${inputValue}&apikey=b8d42e41`
+        `https://www.omdbapi.com/?s=${inputValue}&apikey=b8d42e41`
       );
       const data = await response.json();
       console.log(data.Search);
