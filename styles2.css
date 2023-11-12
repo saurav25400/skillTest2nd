@@ -18,7 +18,7 @@ h1{
 
 #main-parent{
     background-color: white;
-   height:400px !important;
+   height:300px !important;
     width: 50%;
     margin: 0rem auto;
     box-shadow: aqua;
@@ -31,8 +31,11 @@ h1{
     left: 104rem;
    
 }
+.card{
+    max-height:50%  !important;
+}
 .card img{
-    height:420px;
+    height:350px;
    
 }
 .plot{
