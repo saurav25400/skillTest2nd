@@ -18,12 +18,13 @@ h1{
 
 #main-parent{
     background-color: white;
-   height:300px !important;
+   /* height:300px !important; */
     width: 50%;
     margin: 0rem auto;
     box-shadow: aqua;
     box-shadow: 2px 3px;
     border-radius: 4px;
+    height:0px;
 }
 
 .myBtn{
@@ -35,7 +36,8 @@ h1{
     max-height:50%  !important;
 }
 .card img{
-    height:350px;
+    /* height:350px; */
+    height:290px;
    
 }
 .plot{
